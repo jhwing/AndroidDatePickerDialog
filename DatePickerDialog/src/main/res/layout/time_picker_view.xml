@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <cn.carbswang.android.numberpickerview.library.NumberPickerView
+        android:id="@+id/pickerYear"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"
+        app:npv_DividerColor="#D9DADB"
+        app:npv_ItemPaddingHorizontal="5dp"
+        app:npv_ItemPaddingVertical="5dp"
+        app:npv_ShowCount="7"
+        app:npv_TextColorNormal="#D1D2D3"
+        app:npv_TextColorSelected="#323334"
+        app:npv_TextSizeNormal="14sp"
+        app:npv_TextSizeSelected="16sp"
+        app:npv_WrapSelectorWheel="false" />
+
+    <cn.carbswang.android.numberpickerview.library.NumberPickerView
+        android:id="@+id/pickerMonth"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:npv_DividerColor="#D9DADB"
+        app:npv_ItemPaddingHorizontal="5dp"
+        app:npv_ItemPaddingVertical="5dp"
+        app:npv_ShowCount="7"
+        app:npv_TextColorNormal="#D1D2D3"
+        app:npv_TextColorSelected="#323334"
+        app:npv_TextSizeNormal="14sp"
+        app:npv_TextSizeSelected="16sp"
+        app:npv_WrapSelectorWheel="false" />
+
+    <cn.carbswang.android.numberpickerview.library.NumberPickerView
+        android:id="@+id/pickerDay"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        app:npv_DividerColor="#D9DADB"
+        app:npv_ItemPaddingHorizontal="5dp"
+        app:npv_ItemPaddingVertical="5dp"
+        app:npv_ShowCount="7"
+        app:npv_TextColorNormal="#D1D2D3"
+        app:npv_TextColorSelected="#323334"
+        app:npv_TextSizeNormal="14sp"
+        app:npv_TextSizeSelected="16sp"
+        app:npv_WrapSelectorWheel="false" />
+</LinearLayout>

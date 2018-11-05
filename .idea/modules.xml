@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidDatePickerDialog.iml" filepath="$PROJECT_DIR$/AndroidDatePickerDialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DatePickerDialog/DatePickerDialog.iml" filepath="$PROJECT_DIR$/DatePickerDialog/DatePickerDialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DatePickerDialog-sample/DatePickerDialog-sample.iml" filepath="$PROJECT_DIR$/DatePickerDialog-sample/DatePickerDialog-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NumberPickerView/NumberPickerView.iml" filepath="$PROJECT_DIR$/NumberPickerView/NumberPickerView.iml" />
+    </modules>
+  </component>
+</project>
